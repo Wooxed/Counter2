@@ -1,3 +1,28 @@
-.button {
+.btn {
+border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    outline: none;
+    background-color: #6ad8f3;
+    color: #2f323d;
+    width: 80px;
+    height: 40px;
+}
+.btn:active {
+outline: none;
+    background-color: #2f323d;
+    border: #6ad8f3 1px solid;
+    color: #6ad8f3;
+}
 
+.btn:disabled,
+.btn[disabled] {
+background-color: #467b8c;
+}
+
+.btn:disabled:active {
+background-color: #467b8c;
+    color: #2f323d;
+    border: none;
 }

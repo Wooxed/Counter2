@@ -1,17 +1,20 @@
-import {MouseEventHandler} from "react";
-import style from 'Button.module.css'
+import style from './Button.module.css'
+
 
 type ButtonPropsType = {
     title: string
-    onClick: MouseEventHandler<HTMLButtonElement>
-    disabled: boolean | undefined
+    callBack: ()=> void
+    number?: number
+    btnDisabled?: boolean
+    maxNumber?: number
 }
 
 export const Button = (props: ButtonPropsType) => {
+
     return (
-        <button className={props.disabled ? style.disabled : style.button}
-                onClick={props.onClick}
-                disabled={props.disabled}>
+        <button className={style.btn}
+                onClick={props.callBack}
+                disabled={props.btnDisabled}>
             {props.title}
         </button>
     )

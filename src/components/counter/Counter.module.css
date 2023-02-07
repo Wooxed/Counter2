@@ -1,0 +1,41 @@
+.counter {
+    width: 500px;
+    height: 500px;
+    border: 5px #6ad8f3 solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.displayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    flex: 2;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*gap: 15px;*/
+    /*width: 500px;*/
+    /*height: 500px;*/
+    /*border-radius: 15px;*/
+
+}
+
+.btnContainer {
+    flex: 1;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px #6ad8f3 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
