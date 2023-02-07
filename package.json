@@ -2,7 +2,7 @@
   "name": "counter2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Wooxed/Counter2",
+  "homepage": "https://Wooxed.github.com/Counter2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
